@@ -1,0 +1,18 @@
+2. Write a linear search algorithm to return index of last occurance of key.
+Ans:- 
+    1. take key from user/decide the key
+    2. traverse the array from n-1 to 0 (where n = size of array)
+    3. compare the key with respective array elements
+    4. if found return the index 
+    5. if not found return -1
+    
+    
+    
+    
+  i=>0 1 2 3 4 5 6 7 8
+    {1,2,3,4,5,5,6,7,7}
+    key = 5 
+    output = 5
+    key = 7
+    output = 8
+    
